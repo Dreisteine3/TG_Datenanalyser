@@ -77,6 +77,8 @@ In folgenden Grafiken sind die Strompreise in jedem Monat in gleicher Farbe wie 
 <p style='text-align: center; font-weight: bold;'>
     Bild 14. tägliche Endlundenpreise in Dezember, 2023
 </p>
+
+### saisonal
 Angesichts der Unterschiede zwischen Stromerzeugung und Verbrauch, sind die Preisdaten in Sommer (April bis Oktober) und Winter (November bis März) getrennt und gezeigt.
 <img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly_prices_summer_2023.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
