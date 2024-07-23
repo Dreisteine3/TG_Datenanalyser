@@ -19,7 +19,7 @@ Die Werte der Bestandteilen sind im folgenden Bild gezeigt.
 ## Streudiagramme
 Die Punkte in den Streudiagrammen zeigen die Endkundenpreise im Tagverlauf in verschiedenen Zeiträume, wie z.B. jährlich, monatlich und saisonal.
 ### Jährlich
-<img src="https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/year.png" width="1000">
+<img src="https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/year.png" width="1000">
 
 <p style='text-align: center; font-weight: bold;'>
     Bild 2. tägliche Endlundenpreise in 12 Monate in 2023
@@ -29,60 +29,60 @@ Die Punkte in den Streudiagrammen zeigen die Endkundenpreise im Tagverlauf in ve
 
 ### Monatlich
 In folgenden Grafiken sind die Strompreise in jedem Monat in gleicher Farbe wie das jegliche Monat in jährliche Grafik geplottet, wovon die Daten am Wochenende getrennt und in roter Farbe markiert sind.
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly prices/month_1.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/month_1.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
     Bild 3. tägliche Endlundenpreise in Januar, 2023
 </p>
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly prices/month_2.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/month_2.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
     Bild 4. tägliche Endlundenpreise in Februar, 2023
 </p>
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly prices/month_3.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/month_3.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
     Bild 5. tägliche Endlundenpreise in März, 2023
 </p>
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly prices/month_4.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/month_4.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
     Bild 6. tägliche Endlundenpreise in April, 2023
 </p>
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly prices/month_5.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/month_5.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
     Bild 7. tägliche Endlundenpreise in Mai, 2023
 </p>
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly prices/month_6.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/month_6.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
     Bild 8. tägliche Endlundenpreise in Juni, 2023
 </p>
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly prices/month_7.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/month_7.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
     Bild 9. tägliche Endlundenpreise in Juli, 2023
 </p>
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly prices/month_8.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/month_8.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
     Bild 10. tägliche Endlundenpreise in August, 2023
 </p>
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly prices/month_9.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/month_9.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
     Bild 11. tägliche Endlundenpreise in September, 2023
 </p>
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly prices/month_10.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/month_10.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
     Bild 12. tägliche Endlundenpreise in Oktober, 2023
 </p>
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly prices/month_11.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/month_11.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
     Bild 13. tägliche Endlundenpreise in November, 2023
 </p>
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly prices/month_12.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/month_12.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
     Bild 14. tägliche Endlundenpreise in Dezember, 2023
 </p>
 Angesichts der Unterschiede zwischen Stromerzeugung und Verbrauch, sind die Preisdaten in Sommer (April bis Oktober) und Winter (November bis März) getrennt und gezeigt.
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly prices/hourly_prices_summer_2023.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/hourly_prices_summer_2023.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
     Bild 15. tägliche Endlundenpreise in Sommer, 2023
 </p>
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/hourly prices/hourly_prices_winter_2023.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/hourly prices/hourly_prices_winter_2023.png' width=1000>
 <p style='text-align: center; font-weight: bold;'>
     Bild 16. tägliche Endlundenpreise in Winter, 2023
 </p>
@@ -90,7 +90,7 @@ Angesichts der Unterschiede zwischen Stromerzeugung und Verbrauch, sind die Prei
 ## K-Means Clustering
 <p>Um die drei Stufen zu bestimmen, sind die sogenannte 'Clusters' zu finden, wo die Daten am meisten sich versammeln. Hier ist K-Means Algorithmus zu verwenden, der eine Art der Machine-Learning Methode ist.</p>
 <div style="text-align: center;">
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/k-means.png' width=500>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/k-means.png' width=500>
     </div>
 <p style='text-align: center; font-weight: bold;'>
     Bild 17. Darstellung K-Means
@@ -104,7 +104,7 @@ In KMeans Modul von Python ist dieses Prozess durch die Methode <table><tr><td b
 
 Für unsere Situation ist es etwa unterschiedlich: wir wollen nicht ein Zentrumpunkt von einer Punktgruppe zu finden, sodern eine Zentrumlinie (Preisstufen) für alle Punkte (einzelner Preisdaten) in 24 Stunden zu finden. Deswegen hat es sich in dem Code so verändert: jeder Punkt (Preisdaten) wird 24 Mal widerholt und kann deswegen als eine horizontale Linie betrachtet. Dann ist der umgestalteter Datensatz (ein 24 Reihen * n Spalten array) in Methode KMeans.fit() verwendet und dadurch können die drei Stufen als Cluster-Linien festgelegt werden.
 <div style="text-align: center;">
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/center_lines_for_kmeans.png' width=700>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/center_lines_for_kmeans.png' width=700>
     </div>
 <p style='text-align: center; font-weight: bold;'>
     Bild 18. Darstellung der Verarbeitung der Daten für K-Means
@@ -142,14 +142,14 @@ Nach Filtern von Outliers ist KMeans wieder für die Festlegung der 3 Stufen ben
 <p>Wintermonate in 2023: januar, Februar, März, November, Dezember. </p>
 
 <div style="text-align: center;">
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/price levels/Summer_2023_with_removal.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/price levels/Summer_2023_with_removal.png' width=1000>
     </div>
 <p style='text-align: center; font-weight: bold;'>
     Bild 19. drei-Stufen für Sommer, 2023
 </p>
 Nach Outliers entfernt werden, dienen negative Preise und extreme hohe Preise nicht zu der Festlegung der 3 Stufen und dadurch kann das Risiko der extremen Börsenpreisen vermieden werden.
 <div style="text-align: center;">
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/price levels/Winter_2023_with_removal.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/price levels/Winter_2023_with_removal.png' width=1000>
     </div>
 <p style='text-align: center; font-weight: bold;'>
     Bild 20. drei-Stufen für Winter, 2023
@@ -159,49 +159,13 @@ Die blaue Linien zeigen die 3 Clusters für alle Preisdaten am Wochentag, whäre
 ### Variante 2: drei Stufen sind monatlich fest
 Um die Unterschiede mit saisonalen Tarifstufen zu vergleichen, sind Preisstufen monatlich festgelegt.
 <div style="text-align: center;">
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/price levels/Levels for Month_4_2023.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/price levels/Levels for Month_1_2023.png' width=1000>
     </div>
 <p style='text-align: center; font-weight: bold;'>
-    Bild 21. drei-Stufen für April, 2023
+    Bild 21. drei-Stufen für Januar, 2023
 </p>
-<div style="text-align: center;">
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/price levels/Levels for Month_5_2023.png' width=1000>
-    </div>
-<p style='text-align: center; font-weight: bold;'>
-    Bild 21. drei-Stufen für Mai, 2023
-</p>
-<div style="text-align: center;">
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/price levels/Levels for Month_6_2023.png' width=1000>
-    </div>
-<p style='text-align: center; font-weight: bold;'>
-    Bild 21. drei-Stufen für Juni, 2023
-</p>
-<div style="text-align: center;">
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/price levels/Levels for Month_7_2023.png' width=1000>
-    </div>
-<p style='text-align: center; font-weight: bold;'>
-    Bild 21. drei-Stufen für Juli, 2023
-</p>
-<div style="text-align: center;">
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/price levels/Levels for Month_8_2023.png' width=1000>
-    </div>
-<p style='text-align: center; font-weight: bold;'>
-    Bild 21. drei-Stufen für August, 2023
-</p>
-<div style="text-align: center;">
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Datenanalyse/price levels/Levels for Month_9_2023.png' width=1000>
-    </div>
-<p style='text-align: center; font-weight: bold;'>
-    Bild 21. drei-Stufen für September, 2023
-</p>
-
-<p>Im vergleich mit saisonale Festlegung der Stufen ist die Differenz zwischen 3 Stufen niedriger, besonders für Wochentag.</p>
-Eine Methode zu der Bestimmung der Festlegungsart ist wahrscheinlich zu suchen, in welchem Monat die Preisstufen deutlich unterschiedlich wie saisonalen Stufen und deswegen nicht durch einheitliche Niveau vertret werden können.
-
 
 
 ### Variante 3: drei Stufen sind täglich fest
-
-
 ## Auslösung der drei Stufen
-Als früher erwähnt hat ein einzelner Cluster für alle Daten auch mit K-Means berechnet werden. Für jede Variante kann man eine Stufe aus 3 optionen auswählen, die am nähsten mit diesem 1-Cluster ist, weil die spiegelt Börsenpreis am besten wider.
+Für jede Variante kann man eine Stufe aus 3 optionen auswählen, die am nähsten mit Börsenpreis ist.
