@@ -142,14 +142,14 @@ Nach Filtern von Outliers ist KMeans wieder für die Festlegung der 3 Stufen ben
 <p>Wintermonate in 2023: januar, Februar, März, November, Dezember. </p>
 
 <div style="text-align: center;">
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/price levels/Summer_2023_with_removal.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/price levels/Levels for Summer_2023.png' width=1000>
     </div>
 <p style='text-align: center; font-weight: bold;'>
     Bild 19. drei-Stufen für Sommer, 2023
 </p>
 Nach Outliers entfernt werden, dienen negative Preise und extreme hohe Preise nicht zu der Festlegung der 3 Stufen und dadurch kann das Risiko der extremen Börsenpreisen vermieden werden.
 <div style="text-align: center;">
-<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/price levels/Winter_2023_with_removal.png' width=1000>
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/price levels/Levels for Winter_2023.png' width=1000>
     </div>
 <p style='text-align: center; font-weight: bold;'>
     Bild 20. drei-Stufen für Winter, 2023
@@ -169,3 +169,27 @@ Um die Unterschiede mit saisonalen Tarifstufen zu vergleichen, sind Preisstufen 
 ### Variante 3: drei Stufen sind täglich fest
 ## Auslösung der drei Stufen
 Für jede Variante kann man eine Stufe aus 3 optionen auswählen, die am nähsten mit Börsenpreis ist.
+<div style="text-align: center;">
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/trigger examples/weekday/trigger 2023-01-16.png' width=1000>
+    </div>
+<p style='text-align: center; font-weight: bold;'>
+    Bild 22. Tarifauslösung am Beispieltag (2023-01-16, Winter, Wochentag)
+</p>
+<div style="text-align: center;">
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/trigger examples/weekend/trigger 2023-12-23.png' width=1000>
+    </div>
+<p style='text-align: center; font-weight: bold;'>
+    Bild 23. Tarifauslösung am Beispieltag (2023-12-23, Winter, Wochenende)
+</p>
+<div style="text-align: center;">
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/trigger examples/weekday/trigger 2023-08-01.png' width=1000>
+    </div>
+<p style='text-align: center; font-weight: bold;'>
+    Bild 24. Tarifauslösung am Beispieltag (2023-08-01, Sommer, Wochentag)
+</p>
+<div style="text-align: center;">
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/trigger examples/weekend/trigger 2023-07-01.png' width=1000>
+    </div>
+<p style='text-align: center; font-weight: bold;'>
+    Bild 25. Tarifauslösung am Beispieltag (2023-07-01, Sommer, Wochenende)
+</p>
