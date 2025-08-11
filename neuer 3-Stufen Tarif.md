@@ -6,7 +6,7 @@ $$
 Endkundenpreis =& 
     [Börsenpreis * Gewinnmarge + (Netzentgelt + Stromsteuer \\
     &+ OffshoreUmlage + KWKGUmalge + Konzessionsabgabe \\
-    &+ Messungspreis + §19 StromNEVUmlage)] * Mehrwertsteuer 
+        &+ Messungspreis + §19 StromNEVUmlage)] * Mehrwertsteuer 
     \end{aligned}
 $$
 Die Werte der Bestandteilen sind im folgenden Bild gezeigt.
@@ -114,6 +114,8 @@ Für unsere Situation ist es etwa unterschiedlich: wir wollen nicht ein Zentrump
 Weil es viele extreme Börsenpeise gibt, besonders in Sommer, ist es sinnvoll, bevor der Definition der 3 Stufen die Ausreißer, die sogenannte Outlier zu entfernen. Die Prinzip der Entfernung wird hier erklärt.
 Zuerst sind die Daten zu KMeans.fit() eingespeist, wo der Parameter <font face='Courier New'>n_clusters</font> zu 1 eingestellt ist. Dann mit Funktion <font face='Courier New'>cdist</font> können die Entfernung zwischen Zentroid und allen Punkten berechnet. Danach ist eine Grenze, sogenannt 'threshold' eingestellt. Alle Punkte, deren Entfernungen mit Zentroid größer als diese Grenze sind, werden als Outliers betrachtet und für 3-Stufen Festlegung gefiltert.
 
+Es gibt hier noch 2 Variante bezüglich der Art der Entfernung. **Variante 1:** die Grenze werden für alle Monate verwendet, und die Ausreißer werden in jeweiligen Monaten entfernt. D.h., für Januar, ein Zentroid 1 ist durch K-Means bestimmt, und die Grenze von 10 Cent ist festgelegen, sodass alle Preise, die höher als (Zentroid 1 + 10) und niedriger als (Zentroid 1 - 10) sind, werden entfernt. Gleichfalls wird diese Methode für anderen Monaten verwendet, und die Znetroide sind unterschiedlich. **Variante 2:** ein allgemeiner Zentroid werden einmalig für alle Daten des ganzes Jahrs berechnet, sodass alle Preise im Jahr 2023, die höher als (Zentroid + 10) und niedriger als (Zentroid - 10) sind, werden entfernt. **Der Unterschied** zwischen den 2 Varianten besteht darin, dass die für einzelen Monat (Variante 1) als extrem betrachtete Daten, werden möglich nicht für ganzes Jahr (Variante 2) entfernt. Das führt zu niedriger Differenz zwischen 3 Stufen in Variante 2, weil die extreme Daten hier sind 'ordentlicher' abgeschnitten.
+
 | | Sommer | | Winter | |
 | --- | --- | --- | --- | --- |
 | | <strong>Wochentag | <strong>Wochenende | <strong>Wochentag | <strong>Wochenende |
@@ -136,7 +138,7 @@ Zuerst sind die Daten zu KMeans.fit() eingespeist, wo der Parameter <font face='
 ## Festlegung der drei Stufen
 Nach Filtern von Outliers ist KMeans wieder für die Festlegung der 3 Stufen benutzt. Hier sind <font face='Courier New'>n_clusters = 3</font> eingestellt, und die 'saubere Daten', d.h. die gefilterte Daten ohne Outliers, werden als Input der K-Means Methode verarbeitet.
 
-### Variante 1: drei Stufen sind saisonal fest
+### drei Stufen sind saisonal fest
 <p>In dieser Variante ist die Definition der 3 Stufen auf die Daten von dem ganzen Sommer und Winter basiert und festgelegt. </p>
 <p>Sommermonate in 2023: April, Mai, Juni, Juli, August, September, Oktober; </p>
 <p>Wintermonate in 2023: januar, Februar, März, November, Dezember. </p>
@@ -145,7 +147,13 @@ Nach Filtern von Outliers ist KMeans wieder für die Festlegung der 3 Stufen ben
 <img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/price levels/Levels for Summer_2023.png' width=1000>
     </div>
 <p style='text-align: center; font-weight: bold;'>
-    Bild 19. drei-Stufen für Sommer, 2023
+    Bild 19.a. drei-Stufen für Sommer, 2023 (Ausreißer Entfernung Variante 1)
+</p>
+<div style="text-align: center;">
+<img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/price levels/Levels for Summer_2023.png' width=1000>
+    </div>
+<p style='text-align: center; font-weight: bold;'>
+    Bild 19.b. drei-Stufen für Sommer, 2023 (Ausreißer Entfernung Variante 2)
 </p>
 Nach Outliers entfernt werden, dienen negative Preise und extreme hohe Preise nicht zu der Festlegung der 3 Stufen und dadurch kann das Risiko der extremen Börsenpreisen vermieden werden.
 <div style="text-align: center;">
@@ -156,7 +164,7 @@ Nach Outliers entfernt werden, dienen negative Preise und extreme hohe Preise ni
 </p>
 Die blaue Linien zeigen die 3 Clusters für alle Preisdaten am Wochentag, whärend die rote Linien zeigen die 3 Clusters für alle Preisdaten am Wochenende. Es macht Sinn, dass alle der 3 roten Linien niedriger als blaue Linien sind, weil am Wochenende sind die typische 2 Verbrauchs- und Börsenpreisspitzen (eine am Morgen und eine am Abend) nicht so deutlich wie am Wochentag.
 
-### Variante 2: drei Stufen sind monatlich fest
+### Option: drei Stufen sind monatlich fest
 Um die Unterschiede mit saisonalen Tarifstufen zu vergleichen, sind Preisstufen monatlich festgelegt.
 <div style="text-align: center;">
 <img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/price levels/Levels for Month_1_2023.png' width=1000>
@@ -166,9 +174,9 @@ Um die Unterschiede mit saisonalen Tarifstufen zu vergleichen, sind Preisstufen 
 </p>
 
 
-### Variante 3: drei Stufen sind täglich fest
+### Option: drei Stufen sind täglich fest
 ## Auslösung der drei Stufen
-Für jede Variante kann man eine Stufe aus 3 optionen auswählen, die am nähsten mit Börsenpreis ist.
+Für jede Option kann man eine Stufe aus 3 optionen auswählen, die am nähsten mit Börsenpreis ist.
 <div style="text-align: center;">
 <img src='https://raw.githubusercontent.com/Dreisteine3/TG_Datenanalyser/main/Pictures/trigger examples/weekday/trigger 2023-01-16.png' width=1000>
     </div>
