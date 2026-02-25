@@ -38,7 +38,8 @@ Run the scripts one by one.
 
 ## Warning
 
-Please note the absolute paths in the code must be adjusted.
+Please note the absolute paths in the code must be adjusted.  
+For part of visualisation, the package of elenia-cmap must be granted access by elenia, TU Braunschweig.
 
 ## Author
 
