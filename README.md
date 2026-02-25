@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 Run the scripts one by one.
 
-1. dates_grouping_with_holidays_2023-2024.ipynb: add a new column to input file named "group", which hints to what group the timestamp belong to. (Winter/summer, weekday/weekend).  
+1. dates_grouping_with_holidays.ipynb: add a new column to input file named "group", which hints to what group the timestamps belong. (Winter/summer, weekday/weekend).  
 2. Datenanalyse_mit_Trennung_Wochenende.ipynb: uses K-Means to form the 3 levels for each group of data.  
 2.1 Datenanalyse_ohne_Trennung_Wochenende.ipynb: same, but no week/weekend separation.  
 3. Auslösung_mit_Mind.Dauer.ipynb: for each timestamp, chooses which step is selected to form the 3-step tariff, then makes visualisations.
