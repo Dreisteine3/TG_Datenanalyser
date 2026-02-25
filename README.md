@@ -36,7 +36,7 @@ Run the scripts one by one.
 2.1 Datenanalyse_ohne_Trennung_Wochenende.ipynb: same, but no week/weekend separation.  
 3. Auslösung_mit_Mind.Dauer.ipynb: for each timestamp, chooses which step is selected to form the 3-step tariff, then makes visualisations.
 
-## License
+## Warning
 
 Please note the absolute paths in the code must be adjusted.
 
