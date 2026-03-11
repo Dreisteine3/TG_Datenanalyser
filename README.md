@@ -28,6 +28,14 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+Activate the environment:
+```bash
+conda activate venv
+```
+Open Jupyter Notebook:
+```bash
+jupyter notebook
+```
 
 Run the scripts one by one.
 
